@@ -31,5 +31,5 @@ class AppView extends React.Component {
     }
 }
 
-ReactDOM.render(<AppView />, document.getElementById('root'));
+ReactDOM.render(<AppView />, document.getElementById('root'))
 

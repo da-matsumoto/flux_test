@@ -2,7 +2,7 @@ import {appDispatcher} from './appDispatcher.js'
 import {ActionType} from './actions.js'
 
 export const nameStore = {name: '', onChange: null}
-export const messageStore = {name: '', onChange: null}
+export const messageStore = {massage: '', onChange: null}
 
 appDispatcher.register(payload => {
     if (payload.ActionType === ActionType.CHANGE_NAME) {
